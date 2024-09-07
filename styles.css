@@ -1,0 +1,99 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#5c6a80;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #5c6a80;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+form {
+    display: grid;
+    gap: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #34495e;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.profile-picture {
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid #bdc3c7;
+}
+
+.resume-preview {
+    margin-top: 30px;
+    padding: 25px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #2980b9;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #34495e;
+    line-height: 1.6;
+}
